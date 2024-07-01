@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		236328FE2C19617100F4407B /* PredatorDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236328FD2C19617100F4407B /* PredatorDetails.swift */; };
+		23D3E0262C2BD4F6006C3AEF /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D3E0252C2BD4F6006C3AEF /* Stickers.xcassets */; };
+		23D3E02A2C2BD4F6006C3AEF /* ApexStickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 23D3E0232C2BD4F5006C3AEF /* ApexStickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		23DC3F7F2C29615B00856CBA /* PredatorMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC3F7E2C29615B00856CBA /* PredatorMap.swift */; };
+		23FFD3BD2C11741100BC6B26 /* Apex_PredatorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFD3BC2C11741100BC6B26 /* Apex_PredatorsApp.swift */; };
+		23FFD3BF2C11741100BC6B26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFD3BE2C11741100BC6B26 /* ContentView.swift */; };
+		23FFD3C12C11741300BC6B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23FFD3C02C11741300BC6B26 /* Assets.xcassets */; };
+		23FFD3C42C11741300BC6B26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23FFD3C32C11741300BC6B26 /* Preview Assets.xcassets */; };
+		23FFD3CE2C11741300BC6B26 /* Apex_PredatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFD3CD2C11741300BC6B26 /* Apex_PredatorsTests.swift */; };
+		23FFD3D82C11741300BC6B26 /* Apex_PredatorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFD3D72C11741300BC6B26 /* Apex_PredatorsUITests.swift */; };
+		23FFD3DA2C11741300BC6B26 /* Apex_PredatorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFD3D92C11741300BC6B26 /* Apex_PredatorsUITestsLaunchTests.swift */; };
+		23FFD3E72C11750600BC6B26 /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = 23FFD3E62C11750600BC6B26 /* jpapexpredators.json */; };
+		23FFD3E92C11779F00BC6B26 /* ApexPredatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFD3E82C11779F00BC6B26 /* ApexPredatorModel.swift */; };
+		23FFD3EB2C118D8400BC6B26 /* Predators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFD3EA2C118D8400BC6B26 /* Predators.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23D3E0282C2BD4F6006C3AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23FFD3B12C11741100BC6B26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23D3E0222C2BD4F5006C3AEF;
+			remoteInfo = ApexStickers;
+		};
+		23FFD3CA2C11741300BC6B26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23FFD3B12C11741100BC6B26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23FFD3B82C11741100BC6B26;
+			remoteInfo = "Apex Predators";
+		};
+		23FFD3D42C11741300BC6B26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23FFD3B12C11741100BC6B26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23FFD3B82C11741100BC6B26;
+			remoteInfo = "Apex Predators";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		23D3E02B2C2BD4F6006C3AEF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				23D3E02A2C2BD4F6006C3AEF /* ApexStickers.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		236328FD2C19617100F4407B /* PredatorDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorDetails.swift; sourceTree = "<group>"; };
+		23D3E0232C2BD4F5006C3AEF /* ApexStickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ApexStickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D3E0252C2BD4F6006C3AEF /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		23D3E0272C2BD4F6006C3AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23DC3F7E2C29615B00856CBA /* PredatorMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorMap.swift; sourceTree = "<group>"; };
+		23FFD3B92C11741100BC6B26 /* Apex Predators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apex Predators.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23FFD3BC2C11741100BC6B26 /* Apex_PredatorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apex_PredatorsApp.swift; sourceTree = "<group>"; };
+		23FFD3BE2C11741100BC6B26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		23FFD3C02C11741300BC6B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23FFD3C32C11741300BC6B26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23FFD3C92C11741300BC6B26 /* Apex PredatorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apex PredatorsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23FFD3CD2C11741300BC6B26 /* Apex_PredatorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apex_PredatorsTests.swift; sourceTree = "<group>"; };
+		23FFD3D32C11741300BC6B26 /* Apex PredatorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apex PredatorsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23FFD3D72C11741300BC6B26 /* Apex_PredatorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apex_PredatorsUITests.swift; sourceTree = "<group>"; };
+		23FFD3D92C11741300BC6B26 /* Apex_PredatorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apex_PredatorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		23FFD3E62C11750600BC6B26 /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jpapexpredators.json; sourceTree = "<group>"; };
+		23FFD3E82C11779F00BC6B26 /* ApexPredatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexPredatorModel.swift; sourceTree = "<group>"; };
+		23FFD3EA2C118D8400BC6B26 /* Predators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predators.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23FFD3B62C11741100BC6B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23FFD3C62C11741300BC6B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23FFD3D02C11741300BC6B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23D3E0242C2BD4F5006C3AEF /* ApexStickers */ = {
+			isa = PBXGroup;
+			children = (
+				23D3E0252C2BD4F6006C3AEF /* Stickers.xcassets */,
+				23D3E0272C2BD4F6006C3AEF /* Info.plist */,
+			);
+			path = ApexStickers;
+			sourceTree = "<group>";
+		};
+		23FFD3B02C11741100BC6B26 = {
+			isa = PBXGroup;
+			children = (
+				23FFD3BB2C11741100BC6B26 /* Apex Predators */,
+				23FFD3CC2C11741300BC6B26 /* Apex PredatorsTests */,
+				23FFD3D62C11741300BC6B26 /* Apex PredatorsUITests */,
+				23D3E0242C2BD4F5006C3AEF /* ApexStickers */,
+				23FFD3BA2C11741100BC6B26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23FFD3BA2C11741100BC6B26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23FFD3B92C11741100BC6B26 /* Apex Predators.app */,
+				23FFD3C92C11741300BC6B26 /* Apex PredatorsTests.xctest */,
+				23FFD3D32C11741300BC6B26 /* Apex PredatorsUITests.xctest */,
+				23D3E0232C2BD4F5006C3AEF /* ApexStickers.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23FFD3BB2C11741100BC6B26 /* Apex Predators */ = {
+			isa = PBXGroup;
+			children = (
+				23FFD3BC2C11741100BC6B26 /* Apex_PredatorsApp.swift */,
+				23FFD3E82C11779F00BC6B26 /* ApexPredatorModel.swift */,
+				23FFD3BE2C11741100BC6B26 /* ContentView.swift */,
+				23DC3F7E2C29615B00856CBA /* PredatorMap.swift */,
+				236328FD2C19617100F4407B /* PredatorDetails.swift */,
+				23FFD3EA2C118D8400BC6B26 /* Predators.swift */,
+				23FFD3C02C11741300BC6B26 /* Assets.xcassets */,
+				23FFD3E62C11750600BC6B26 /* jpapexpredators.json */,
+				23FFD3C22C11741300BC6B26 /* Preview Content */,
+			);
+			path = "Apex Predators";
+			sourceTree = "<group>";
+		};
+		23FFD3C22C11741300BC6B26 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				23FFD3C32C11741300BC6B26 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		23FFD3CC2C11741300BC6B26 /* Apex PredatorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				23FFD3CD2C11741300BC6B26 /* Apex_PredatorsTests.swift */,
+			);
+			path = "Apex PredatorsTests";
+			sourceTree = "<group>";
+		};
+		23FFD3D62C11741300BC6B26 /* Apex PredatorsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23FFD3D72C11741300BC6B26 /* Apex_PredatorsUITests.swift */,
+				23FFD3D92C11741300BC6B26 /* Apex_PredatorsUITestsLaunchTests.swift */,
+			);
+			path = "Apex PredatorsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23D3E0222C2BD4F5006C3AEF /* ApexStickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D3E02E2C2BD4F6006C3AEF /* Build configuration list for PBXNativeTarget "ApexStickers" */;
+			buildPhases = (
+				23D3E0212C2BD4F5006C3AEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApexStickers;
+			productName = ApexStickers;
+			productReference = 23D3E0232C2BD4F5006C3AEF /* ApexStickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+		23FFD3B82C11741100BC6B26 /* Apex Predators */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23FFD3DD2C11741300BC6B26 /* Build configuration list for PBXNativeTarget "Apex Predators" */;
+			buildPhases = (
+				23FFD3B52C11741100BC6B26 /* Sources */,
+				23FFD3B62C11741100BC6B26 /* Frameworks */,
+				23FFD3B72C11741100BC6B26 /* Resources */,
+				23D3E02B2C2BD4F6006C3AEF /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23D3E0292C2BD4F6006C3AEF /* PBXTargetDependency */,
+			);
+			name = "Apex Predators";
+			productName = "Apex Predators";
+			productReference = 23FFD3B92C11741100BC6B26 /* Apex Predators.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23FFD3C82C11741300BC6B26 /* Apex PredatorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23FFD3E02C11741300BC6B26 /* Build configuration list for PBXNativeTarget "Apex PredatorsTests" */;
+			buildPhases = (
+				23FFD3C52C11741300BC6B26 /* Sources */,
+				23FFD3C62C11741300BC6B26 /* Frameworks */,
+				23FFD3C72C11741300BC6B26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23FFD3CB2C11741300BC6B26 /* PBXTargetDependency */,
+			);
+			name = "Apex PredatorsTests";
+			productName = "Apex PredatorsTests";
+			productReference = 23FFD3C92C11741300BC6B26 /* Apex PredatorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23FFD3D22C11741300BC6B26 /* Apex PredatorsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23FFD3E32C11741300BC6B26 /* Build configuration list for PBXNativeTarget "Apex PredatorsUITests" */;
+			buildPhases = (
+				23FFD3CF2C11741300BC6B26 /* Sources */,
+				23FFD3D02C11741300BC6B26 /* Frameworks */,
+				23FFD3D12C11741300BC6B26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23FFD3D52C11741300BC6B26 /* PBXTargetDependency */,
+			);
+			name = "Apex PredatorsUITests";
+			productName = "Apex PredatorsUITests";
+			productReference = 23FFD3D32C11741300BC6B26 /* Apex PredatorsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23FFD3B12C11741100BC6B26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					23D3E0222C2BD4F5006C3AEF = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					23FFD3B82C11741100BC6B26 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					23FFD3C82C11741300BC6B26 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 23FFD3B82C11741100BC6B26;
+					};
+					23FFD3D22C11741300BC6B26 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 23FFD3B82C11741100BC6B26;
+					};
+				};
+			};
+			buildConfigurationList = 23FFD3B42C11741100BC6B26 /* Build configuration list for PBXProject "Apex Predators" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23FFD3B02C11741100BC6B26;
+			productRefGroup = 23FFD3BA2C11741100BC6B26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23FFD3B82C11741100BC6B26 /* Apex Predators */,
+				23FFD3C82C11741300BC6B26 /* Apex PredatorsTests */,
+				23FFD3D22C11741300BC6B26 /* Apex PredatorsUITests */,
+				23D3E0222C2BD4F5006C3AEF /* ApexStickers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23D3E0212C2BD4F5006C3AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D3E0262C2BD4F6006C3AEF /* Stickers.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23FFD3B72C11741100BC6B26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FFD3C42C11741300BC6B26 /* Preview Assets.xcassets in Resources */,
+				23FFD3C12C11741300BC6B26 /* Assets.xcassets in Resources */,
+				23FFD3E72C11750600BC6B26 /* jpapexpredators.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23FFD3C72C11741300BC6B26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23FFD3D12C11741300BC6B26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23FFD3B52C11741100BC6B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FFD3BF2C11741100BC6B26 /* ContentView.swift in Sources */,
+				23DC3F7F2C29615B00856CBA /* PredatorMap.swift in Sources */,
+				236328FE2C19617100F4407B /* PredatorDetails.swift in Sources */,
+				23FFD3E92C11779F00BC6B26 /* ApexPredatorModel.swift in Sources */,
+				23FFD3EB2C118D8400BC6B26 /* Predators.swift in Sources */,
+				23FFD3BD2C11741100BC6B26 /* Apex_PredatorsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23FFD3C52C11741300BC6B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FFD3CE2C11741300BC6B26 /* Apex_PredatorsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23FFD3CF2C11741300BC6B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FFD3D82C11741300BC6B26 /* Apex_PredatorsUITests.swift in Sources */,
+				23FFD3DA2C11741300BC6B26 /* Apex_PredatorsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23D3E0292C2BD4F6006C3AEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23D3E0222C2BD4F5006C3AEF /* ApexStickers */;
+			targetProxy = 23D3E0282C2BD4F6006C3AEF /* PBXContainerItemProxy */;
+		};
+		23FFD3CB2C11741300BC6B26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23FFD3B82C11741100BC6B26 /* Apex Predators */;
+			targetProxy = 23FFD3CA2C11741300BC6B26 /* PBXContainerItemProxy */;
+		};
+		23FFD3D52C11741300BC6B26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23FFD3B82C11741100BC6B26 /* Apex Predators */;
+			targetProxy = 23FFD3D42C11741300BC6B26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23D3E02C2C2BD4F6006C3AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6BP78T8NF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ApexStickers/Info.plist;
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.Apex-Predators.ApexStickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23D3E02D2C2BD4F6006C3AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6BP78T8NF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ApexStickers/Info.plist;
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.Apex-Predators.ApexStickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23FFD3DB2C11741300BC6B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23FFD3DC2C11741300BC6B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23FFD3DE2C11741300BC6B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Apex Predators/Preview Content\"";
+				DEVELOPMENT_TEAM = W6BP78T8NF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.Apex-Predators";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23FFD3DF2C11741300BC6B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Apex Predators/Preview Content\"";
+				DEVELOPMENT_TEAM = W6BP78T8NF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.Apex-Predators";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23FFD3E12C11741300BC6B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6BP78T8NF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.Apex-PredatorsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apex Predators.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Apex Predators";
+			};
+			name = Debug;
+		};
+		23FFD3E22C11741300BC6B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6BP78T8NF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.Apex-PredatorsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apex Predators.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Apex Predators";
+			};
+			name = Release;
+		};
+		23FFD3E42C11741300BC6B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6BP78T8NF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.Apex-PredatorsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Apex Predators";
+			};
+			name = Debug;
+		};
+		23FFD3E52C11741300BC6B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6BP78T8NF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.Apex-PredatorsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Apex Predators";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23D3E02E2C2BD4F6006C3AEF /* Build configuration list for PBXNativeTarget "ApexStickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D3E02C2C2BD4F6006C3AEF /* Debug */,
+				23D3E02D2C2BD4F6006C3AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23FFD3B42C11741100BC6B26 /* Build configuration list for PBXProject "Apex Predators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23FFD3DB2C11741300BC6B26 /* Debug */,
+				23FFD3DC2C11741300BC6B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23FFD3DD2C11741300BC6B26 /* Build configuration list for PBXNativeTarget "Apex Predators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23FFD3DE2C11741300BC6B26 /* Debug */,
+				23FFD3DF2C11741300BC6B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23FFD3E02C11741300BC6B26 /* Build configuration list for PBXNativeTarget "Apex PredatorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23FFD3E12C11741300BC6B26 /* Debug */,
+				23FFD3E22C11741300BC6B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23FFD3E32C11741300BC6B26 /* Build configuration list for PBXNativeTarget "Apex PredatorsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23FFD3E42C11741300BC6B26 /* Debug */,
+				23FFD3E52C11741300BC6B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23FFD3B12C11741100BC6B26 /* Project object */;
+}
